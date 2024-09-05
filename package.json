@@ -1,7 +1,7 @@
 {
-  "name": "restaurant-page",
+  "name": "historical-eras",
   "version": "1.0.0",
-  "description": "A Simple Restaurant Homepage (for purposes of learning webpack)",
+  "description": "A Simple Practice Assignment for stuff",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,7 @@
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
-    "webpack": "^5.93.0",
+    "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^6.0.1"

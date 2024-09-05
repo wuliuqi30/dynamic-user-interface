@@ -1,0 +1,11 @@
+{
+    "name": "make-a-form",
+    "version": "1.0.0",
+    "author": "Hersh Sangani, sanganihersh@gmail.com",
+    "description": "hersh trying to make a package and upload it to the npm registry",
+    "main": "index1.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "ISC"
+}

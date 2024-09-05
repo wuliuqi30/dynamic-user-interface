@@ -7,25 +7,45 @@
 *::after {
     box-sizing: border-box;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
-img, picture, video, canvas, svg {
+
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
-input, button, textarea, select {
+
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
-p, h1, h2, h3, h4, h5, h6 {
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     overflow-wrap: break-word;
 }
-#root, #__next {
+
+#root,
+#__next {
     isolation: isolate;
 }
 
@@ -34,39 +54,46 @@ p, h1, h2, h3, h4, h5, h6 {
 
 :root {
     font-size: 16px;
-    --page-width: 750px;    
+    --page-width: 750px;
 
     color: rgb(29, 29, 181);
 }
 
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 body {
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
 }
 
-header {
-
+#eras {
+    height: 40px;
 }
 
-p {
-
+#eras option {
+    height: 40px;
 }
 
-#content {
-    
+#eras option:first-child {
+    text-align: center;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 2rem;
+.nav-filled {
+    background-color: black;
 }
 
 
 
 @media (max-width: 425px) {
-   :root {
-       font-size: 12px;
+    :root {
+        font-size: 12px;
     }
 }
